@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Profile Page</title>
+  <style>
+    body {
+      padding: 20px;
+    }
+    
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    
+    .nav-item {
+      margin-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Anandh Profile</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="ak.jpg" alt="Profile Picture" class="profile-picture img-fluid">
+      </div>
+      <div class="col-lg-8">
+        <h1>Anandh Kumar G</h1>
+        <h3>Software Engineer</h3>
+        <hr>
+        <div id="about">
+          <h3>About</h3>
+          <p>Passinate Developer, Tutor, completed 5 realtime projects, and having Four years of experience in IT Industry.</p>
+        </div>
+        <hr>
+        <div id="experience">
+          <h3>Experience</h3>
+          <ul>
+            <li>Neonicz Software Solution Pvt. Ltd. - Software Engineer</li>
+            <li>Neonicz Software Solution Pvt. Ltd. - Associate Engineer</li>
+            <li>MacsInfo Solution Pvt Ltd - Junior Android Developer</li>
+          </ul>
+        </div>
+        <hr>
+        <div id="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JavaSpringBoot</li>
+            <li>MySql</li>
+          </ul>
+        </div>
+        <hr>
+        <div id="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li><strong>Email:</strong> accetanandhmca@gmail.com</li>
+            <li><strong>Phone:</strong> +91 8056589306</li>
+            <li><strong>Location:</strong> Palani, Dindigul, Tamilnadu</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
